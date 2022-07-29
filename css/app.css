@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-header {
+    height: 120px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main-header button {
+    margin-left: auto;
+}
+
+main {
+    height: calc(100vh - 200px);
+    background-color: #7FFFD4;
+}
+
+.main-footer {
+    height: 80px;
+    padding: 1.5rem;
+    
+}
