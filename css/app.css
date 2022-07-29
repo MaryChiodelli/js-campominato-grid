@@ -42,4 +42,11 @@ main {
     flex-basis: calc((100% / 10) * 1);
     aspect-ratio: 1 / 1;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square.active {
+    background-color: azure;
 }
