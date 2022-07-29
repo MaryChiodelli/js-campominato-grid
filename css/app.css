@@ -17,12 +17,29 @@
 }
 
 main {
-    height: calc(100vh - 200px);
+    min-height: calc(100vh - 200px);
+    padding: 1.5rem;
     background-color: #7FFFD4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-footer {
     height: 80px;
     padding: 1.5rem;
-    
+}
+
+.grid {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    flex-basis: calc((100% / 10) * 1);
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
 }
