@@ -39,12 +39,23 @@ main {
 }
 
 .square {
-    flex-basis: calc((100% / 9) * 1);
     aspect-ratio: 1 / 1;
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.square.cell-10 {
+    flex-basis: calc((100% / 10) * 1);
+}
+
+.square.cell-9 {
+    flex-basis: calc((100% / 9) * 1);
+}
+
+.square.cell-7 {
+    flex-basis: calc((100% / 7) * 1);
 }
 
 .square.active {
